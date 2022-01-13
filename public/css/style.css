@@ -2,16 +2,14 @@
 
 :root{
     --blue:#0051ca;
-    --black:#fff;
-    --light-color:#ddd;
-    --bg-color:#222;
-    --border:.1rem solid rgba(0,0,0,.4);
-    --box-shadow:.4rem .4rem 1rem #111,
-                -.4rem -.4rem 1rem #333;
-     --box-shadow-inset:.4rem .4rem 1rem #111 inset,
-                      -.4rem -.4rem 1rem #333 inset;
-    
-                      
+    --black:#444;
+    --light-color:#777;
+    --bg-color:#e6e6e6;
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:.4rem .4rem 1rem #ccc,
+                -.4rem -.4rem 1rem #fff;
+    --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
+                      -.4rem -.4rem 1rem #fff inset;
 }
 
 *{
@@ -36,14 +34,14 @@ body{
 }
 
 body.active{
-    --black:#444;
-    --light-color:#777;
-    --bg-color:#e6e6e6;
-    --border:.1rem solid rgba(0,0,0,.2);
-    --box-shadow:.4rem .4rem 1rem #ccc,
-                -.4rem -.4rem 1rem #fff;
- --box-shadow-inset:.4rem .4rem 1rem #ccc inset,
-               -.4rem -.4rem 1rem #fff inset;
+    --black:#fff;
+    --light-color:#ddd;
+    --bg-color:#222;
+    --border:.1rem solid rgba(0,0,0,.4);
+    --box-shadow:.4rem .4rem 1rem #111,
+                -.4rem -.4rem 1rem #333;
+    --box-shadow-inset:.4rem .4rem 1rem #111 inset,
+                      -.4rem -.4rem 1rem #333 inset;
 }
 
 section{
